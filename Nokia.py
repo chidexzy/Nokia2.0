@@ -39,6 +39,6 @@ def brand():
 brand()
 bit = platform.architecture()[0]
 if bit == '64bit':
-    import data64
+    import nok
 elif bit == '32bit':
-    import data32
+    import nok
